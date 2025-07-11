@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: rgb(10, 10, 10);
+
 }
 
 .App-logo {
@@ -35,4 +37,100 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.navClass{
+  
+  border: 1px solid;
+  border-radius: 1%;
+  background-color: rgb(30, 30, 30);
+
+  border-color:rgb(159, 136, 4);
+  box-shadow: 0 0 8px 1px #ffc107;
+}
+.navLink{
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  border: 1px solid rgb(159, 136, 4);
+  border-radius: 5%;
+  box-shadow: 0 0 4px 1px #ffc107;
+}
+
+.cardClass{
+  background-color: rgb(50, 50, 50);
+}
+.linkClass{
+  padding: 3%;
+  background-color: black;
+  color: rgb(255, 215, 0);
+  text-decoration: none;
+  border: rgb(255, 215, 0) solid 1px;
+  border-radius:10%;
+  position: absolute;
+  bottom: 10px;
+    left: 35%;
+
+}
+
+.linkClass:hover{
+  padding: 3%;
+  background-color:rgb(158, 134, 0);
+  color: black;
+  text-decoration: none;
+  border: black solid 1px;
+  border-radius:10%;
+  position: absolute;
+  bottom: 10px;
+    left: 35%;
+
+
+}
+.goldClass{
+  color: rgb(255, 215, 0);
+}
+.custom-input {
+  background-color: #2f2f2f !important; 
+  color: white !important;             
+  border: 1px solid #444 !important;    
+  box-shadow: 0 0 8px 1px #ffc107;
+}
+
+.custom-input:hover,
+ .custom-input:focus{
+  border-color: rgb(255, 215, 0); 
+  box-shadow: 0 0 8px 1px white  !important;
+
+}
+
+
+.scroll-row {
+  scrollbar-color: #888 transparent;
+  scrollbar-width: thin;
+}
+
+.scroll-row::-webkit-scrollbar {
+  height: 8px;
+}
+
+.scroll-row::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 10px;
+}
+
+
+.card {
+  position: relative;
+  min-height: 350px; /* یا هر ارتفاعی که مناسب کارتت هست */
+  background-color: rgb(30,30,30);
+  color: white;
+  box-shadow: 0 0 8px 1px #ffc107;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px; /* فضایی برای دکمه پایین */
+}
+
+.card-body {
+  flex-grow: 1;
 }
