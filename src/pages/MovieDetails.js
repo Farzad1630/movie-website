@@ -30,10 +30,10 @@ export const MovieDetails = ()=>{
 
   return (
 
-    <div>
+    <div className='movieBody'>
 
       
-      <div className="row">
+      <div className="row ">
 
         <div className="col-md-4">
 
@@ -45,7 +45,7 @@ export const MovieDetails = ()=>{
 
         </div>
 
-        <div className="col-md-8">
+        <div className="col-md-8" style={{color : 'white'}}>
 
           <h2>{movie.Title} ({movie.Year})</h2>
           <p><strong>Genre:</strong> {movie.Genre}</p>
@@ -56,8 +56,8 @@ export const MovieDetails = ()=>{
           
         </div>
       </div>
+        <Link to="/" className="btn btn-secondary mb-3 float-end"> --Back to Home</Link>
 
-      <Link to="/" className="btn btn-secondary mb-3 float-end"> --Back to Home</Link>
 
     </div>
   );
